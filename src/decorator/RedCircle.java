@@ -1,6 +1,7 @@
 package decorator;
 
 public class RedCircle extends ShapeDecorator {
+    
     public RedCircle(Shape object){
     	super(object);
     }
