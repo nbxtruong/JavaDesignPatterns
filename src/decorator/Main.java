@@ -1,11 +1,11 @@
-ppackage decorator;
+package decorator;
 
 public class Main {
-	public static void main(String[] args) {
-		Shape circle=new Circle();
-		circle.draw();
+    public static void main(String[] args) {
+		Shape rectangle=new Rectangle();
+		rectangle.draw();
 
-		Shape redCircle=new RedCircle(new Circle());
-		redCircle.draw();
+		ShapeDecorator redRedtangle= new RedRectangle(rectangle);
+		redRedtangle.draw();
 	}
 }

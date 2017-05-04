@@ -1,8 +1,7 @@
 package decorator;
 
 public class Rectangle implements Shape {
-
-	@Override
+    @Override
     public void draw(){
     	System.out.println("This is rectangle.");
     }

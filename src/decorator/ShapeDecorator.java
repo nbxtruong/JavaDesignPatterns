@@ -1,14 +1,9 @@
 package decorator;
 
 public abstract class ShapeDecorator implements Shape {
-    protected Shape object;
+    protected Shape shape;
 
-    public ShapeDecorator (Shape object){
-    	this.object=object;
-    }
-
-    @Override
-    public void draw(){
-    	object.draw();
+    public ShapeDecorator(Shape shape){
+    	this.shape=shape;
     }
 }
