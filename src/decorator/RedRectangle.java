@@ -5,7 +5,7 @@ public class RedRectangle extends ShapeDecorator {
     	super(shape);
     }
 
-    public void fill(){
+    private void fill(){
     	System.out.println("(Red)");
     }
 
